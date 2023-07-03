@@ -39,3 +39,17 @@ for(let i = 10; i <= 20; i++){
 for(let i = 20; i <= 10; i--){
     console.log('repetição',i)
 }
+
+console.clear()
+
+
+let nota;
+let soma = 0;
+
+for(let i= 1 <=3; i++){
+    nota = Number(input.question(`informe a nota ${i} do aluno:`))
+
+    soma - soma + nota
+}
+
+console.log(soma);
