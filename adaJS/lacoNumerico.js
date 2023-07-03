@@ -46,10 +46,10 @@ console.clear()
 let nota;
 let soma = 0;
 
-for(let i= 1 <=3; i++){
-    nota = Number(input.question(`informe a nota ${i} do aluno:`))
+for (let i= 1; i <=3; i++) {
+    nota = Number (input.question(`Informe a nota ${i} co aluno :`));
 
     soma - soma + nota
 }
 
-console.log(soma);
+console.log(` a media do aluno é: ${soma / 3}`);
