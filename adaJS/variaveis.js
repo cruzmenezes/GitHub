@@ -5,3 +5,5 @@ let name = 'edson';
 
 console.log(name);
 console.log(typeof age, age);
+
+
