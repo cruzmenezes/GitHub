@@ -10,7 +10,7 @@
 
 // ACUMULADOR
 
-let media = (nota1 + nota2 + nota3) / 3
+// let media = (nota1 + nota2 + nota3) / 3
 
 let acumulado = 0;
 
@@ -22,4 +22,20 @@ acumulado ++
 
 console.log(acumulado);
 
+
+console.clear();
+
+
 // ESTRUTURA FOR
+
+for(let i = 0; i <= 10; i++){
+    console.log('repetição',i)
+}
+
+for(let i = 10; i <= 20; i++){
+    console.log('repetição',i)
+}
+
+for(let i = 20; i <= 10; i--){
+    console.log('repetição',i)
+}
