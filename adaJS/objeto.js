@@ -7,3 +7,4 @@ let pessoa = {
 }
 
 console.log(pessoa);
+console.log(pessoa.name);
