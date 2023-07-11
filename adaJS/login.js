@@ -14,7 +14,9 @@
 
 // Note que cada informação entre [ ] é uma das respostas dadas pela pessoa.
 
+let nome = input("Digite seu nome:");
 
-let name = input("Digite seu Nome:")
-console.log(name);
+console.log("Seu nome é: " + nome);
+
+
 
