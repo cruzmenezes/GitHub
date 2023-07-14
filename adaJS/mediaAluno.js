@@ -1,6 +1,7 @@
 
 
 // CALCULAR A MEDIA DO ALUNO
+console.clear();
 
 function calcularMedia(notas) {
     let soma = 0;
@@ -11,6 +12,6 @@ function calcularMedia(notas) {
     return media;
   }
   
-  const notasAluno = [7, 8, 9, 6, 5];
+  const notasAluno = [7, 8, 10, 6, 9];
   const mediaFinal = calcularMedia(notasAluno);
-  console.log ("A media do aluno e: " + mediaFinal)
+  console.log (`A média do aluno é: ${mediaFinal}`);
